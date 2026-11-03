@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 570" fill="none">
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="280" y2="310" gradientUnits="userSpaceOnUse"><stop stop-color="#b7a0dd"/><stop offset="1" stop-color="#9474c4"/></linearGradient>
+    <linearGradient id="chip" x1="100" y1="85" x2="220" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#6b4796"/><stop offset="1" stop-color="#47305f"/></linearGradient>
+    <linearGradient id="terminal" x1="362" y1="70" x2="504" y2="200" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset="1" stop-color="#f6f1fc"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feGaussianBlur stdDeviation="11"/></filter>
+    <filter id="small-shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dy="6" stdDeviation="7" flood-color="#523079" flood-opacity=".1"/></filter>
+    <pattern id="holes" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="2" fill="#d4c8e6"/></pattern>
+  </defs>
+  <ellipse cx="321" cy="348" rx="225" ry="126" fill="#ede6f7" opacity=".6"/>
+  <path d="M60 352h31m-15-15v30m430-125h23m-12-12v24M159 97h19m-10-10v20" stroke="#c7b6de" stroke-width="1.4"/>
+  <circle cx="542" cy="340" r="3" fill="#bca5dc"/><circle cx="213" cy="75" r="3" fill="#d5c6e7"/>
+  <path d="M152 186v-33h86m-3-3 4 3-4 3M447 385h49v-50m-3 4 3-4 3 4" stroke="#bba4d8" stroke-dasharray="4 5"/>
+  <text x="153" y="139" fill="#a891c5" font-family="monospace" font-size="9" letter-spacing="1.2">INPUT</text>
+  <text x="468" y="405" fill="#a891c5" font-family="monospace" font-size="9" letter-spacing="1.2">OUTPUT</text>
+  <ellipse cx="303" cy="377" rx="172" ry="51" fill="#79579f" opacity=".15" filter="url(#shadow)"/>
+  <g transform="matrix(.98 .42 -.68 .72 251 129)">
+    <rect x="-2" y="15" width="277" height="271" rx="17" fill="#725096"/>
+    <rect x="-2" y="5" width="277" height="271" rx="17" fill="url(#board)" stroke="#c1afe1" stroke-width="2"/>
+    <rect x="9" y="16" width="254" height="248" rx="12" stroke="#e4d9f5" stroke-opacity=".5"/>
+    <g stroke="#dccaf1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".75">
+      <path d="M43 60h34l19 19v27m-41 1H27v52h30m5 63H37v-44h26m19 58h23v-38m59 48v-37m30 11h39v-52h-35M209 68v25h-27m-6-44h-40v35m102 53h-31M109 35v21h-20v26"/>
+      <path d="M54 84h11l20 20m-50 25h34m-17 60h14l18-18m38 67v-28m68 26h26v-26l-16-16m40-92h-28v10m-62-56v15"/>
+    </g>
+    <g fill="#e6d9f5" opacity=".9"><circle cx="43" cy="60" r="4"/><circle cx="54" cy="84" r="3"/><circle cx="57" cy="159" r="4"/><circle cx="35" cy="129" r="3"/><circle cx="62" cy="222" r="3"/><circle cx="109" cy="35" r="3"/><circle cx="176" cy="49" r="4"/><circle cx="209" cy="68" r="3"/><circle cx="238" cy="137" r="3"/><circle cx="194" cy="220" r="4"/><circle cx="164" cy="246" r="3"/></g>
+    <g fill="#ebdcb6" stroke="#7c6595" stroke-width=".5">
+      <path d="M88 102h-13v7h13m0 7h-13v7h13m0 7h-13v7h13m0 7h-13v7h13m0 7h-13v7h13m0 7h-13v7h13m0 7h-13v7h13"/>
+      <path d="M187 102h14v7h-14m0 7h14v7h-14m0 7h14v7h-14m0 7h14v7h-14m0 7h14v7h-14m0 7h14v7h-14m0 7h14v7h-14"/>
+      <path d="M96 94V81h7v13m7 0V81h7v13m7 0V81h7v13m7 0V81h7v13m7 0V81h7v13m7 0V81h7v13m7 0V81h7v13"/>
+      <path d="M96 193v13h7v-13m7 0v13h7v-13m7 0v13h7v-13m7 0v13h7v-13m7 0v13h7v-13m7 0v13h7v-13m7 0v13h7v-13"/>
+    </g>
+    <rect x="87" y="96" width="102" height="102" rx="5" fill="#422a59"/>
+    <rect x="87" y="91" width="102" height="102" rx="5" fill="url(#chip)" stroke="#8360ac" stroke-width="2"/>
+    <circle cx="99" cy="104" r="3" fill="#b49acb"/>
+    <text x="138" y="138" fill="#f1e7ff" font-family="Arial,sans-serif" font-size="19" font-weight="bold" text-anchor="middle" letter-spacing="1">STM32</text>
+    <text x="138" y="156" fill="#b9a1d0" font-family="monospace" font-size="8" text-anchor="middle" letter-spacing="1">CORTEX-M4</text>
+    <path d="m126 169 8 5 14-10" stroke="#b79dcc" stroke-width="2"/>
+    <g fill="#43354f"><rect x="18" y="45" width="13" height="178" rx="3"/><rect x="243" y="45" width="13" height="178" rx="3"/></g>
+    <g fill="#dccb9e">
+      <path d="M20 51h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zM245 51h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9zm0 14h9v7h-9z"/>
+    </g>
+    <rect x="112" y="1" width="49" height="27" rx="3" fill="#bdb5c8" stroke="#f2ebf8" stroke-width="2"/>
+    <path d="M118 2v13h36V2" fill="#e2dce9"/><rect x="124" y="2" width="23" height="6" rx="1" fill="#807289"/>
+    <rect x="111" y="228" width="52" height="17" rx="3" fill="#6a507f"/>
+    <rect x="115" y="226" width="43" height="15" rx="2" fill="#ddd7e5" stroke="#f4eefa"/>
+    <g fill="#5d4773"><rect x="57" y="124" width="11" height="20" rx="2"/><rect x="212" y="148" width="11" height="20" rx="2"/><rect x="174" y="233" width="19" height="9" rx="2"/></g>
+    <g fill="#ddceeb"><rect x="57" y="124" width="11" height="4"/><rect x="57" y="140" width="11" height="4"/><rect x="212" y="148" width="11" height="4"/><rect x="212" y="164" width="11" height="4"/></g>
+    <circle cx="211" cy="193" r="6" fill="#9dc7ad" stroke="#d3e9d9" stroke-width="2"/>
+    <circle cx="211" cy="193" r="12" fill="#adcfaa" opacity=".15"/>
+    <text x="203" y="212" fill="#ede5f7" font-family="monospace" font-size="6">PWR</text>
+    <g fill="#785697" stroke="#d4c2e9" stroke-width="2"><circle cx="18" cy="26" r="5"/><circle cx="255" cy="26" r="5"/><circle cx="18" cy="253" r="5"/><circle cx="255" cy="253" r="5"/></g>
+    <text x="46" y="252" fill="#e9ddf7" font-family="monospace" font-size="7" letter-spacing="1.5">NATTAKIT / LAB_01</text>
+  </g>
+  <g transform="rotate(8 463 129)" filter="url(#small-shadow)">
+    <rect x="371" y="57" width="172" height="132" rx="9" fill="url(#terminal)" stroke="#ded3eb"/>
+    <path d="M371 82h172" stroke="#e8dff1"/>
+    <circle cx="385" cy="70" r="2.4" fill="#c0acd9"/><circle cx="395" cy="70" r="2.4" fill="#d5c7e5"/><circle cx="405" cy="70" r="2.4" fill="#e2d8ed"/>
+    <text x="491" y="73" text-anchor="middle" fill="#aa95c2" font-family="monospace" font-size="7">serial monitor</text>
+    <text x="384" y="103" fill="#8d73ac" font-family="monospace" font-size="8">&gt; observing the response_</text>
+    <path d="M385 152h142m-142-18h142m-142-18h142" stroke="#ebe2f3"/>
+    <path d="M385 152c12 0 16-41 30-41s16 40 29 40 16-30 29-30 17 17 27 17 15-6 27-6" stroke="#9d77ce" stroke-width="2" stroke-linecap="round"/>
+    <path d="M385 134h142" stroke="#b9d2c4" stroke-dasharray="3 4"/>
+    <text x="385" y="174" fill="#b4a0ca" font-family="monospace" font-size="7">read. tune. repeat.</text>
+    <circle cx="526" cy="171" r="3" fill="#a1c5ad"/>
+  </g>
+  <path d="M154 302c-80 9-95 43-70 66 15 13 68 4 73 33 5 30-51 47-68 20" stroke="#d2c0e7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M154 299c-80 9-95 43-70 66 15 13 68 4 73 33 5 30-51 47-68 20" stroke="#8c68b6" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(64 391) rotate(-20)" filter="url(#small-shadow)"><rect width="39" height="50" rx="7" fill="#b89bd7"/><rect x="5" y="-9" width="29" height="16" rx="3" fill="#e2dbe9" stroke="#bcaacb"/><rect x="12" y="-5" width="15" height="4" fill="#a18bb6"/><path d="M20 18v17m-7-7h14m-14-7 7-4 7 4" stroke="#e8d9f5" stroke-width="2" stroke-linecap="round"/></g>
+  <g transform="translate(438 327) rotate(14)" filter="url(#small-shadow)"><rect width="75" height="88" rx="10" fill="#fff" stroke="#ded4e9"/><rect x="10" y="13" width="55" height="38" rx="4" fill="#e4dbee"/><circle cx="25" cy="32" r="11" fill="#a18ab8"/><circle cx="25" cy="32" r="7" fill="#d8c9e8"/><circle cx="50" cy="32" r="11" fill="#a18ab8"/><circle cx="50" cy="32" r="7" fill="#d8c9e8"/><path d="M19 64h37m-37 6h22" stroke="#baa7cf" stroke-width="2" stroke-linecap="round"/><g stroke="#bda6d2" stroke-width="3"><path d="M25 87v12m9-12v12m9-12v12m9-12v12"/></g></g>
+  <path d="M475 330v-38h-38" stroke="#b497d0" stroke-width="2" stroke-dasharray="3 5"/>
+  <path d="M205 449h206m-206-5v10m206-10v10" stroke="#cbb9df"/>
+  <text x="308" y="470" text-anchor="middle" fill="#aa93c2" font-family="monospace" font-size="8" letter-spacing="1.5">FIRMWARE × HARDWARE × CURIOSITY</text>
+</svg>
